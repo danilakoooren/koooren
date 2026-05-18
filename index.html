@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>Ó Êîðíÿ | Ðåñòîðàí • Íèæíèé Íîâãîðîä</title>
+  <!-- Font Awesome 6 äëÿ èêîíîê -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Ïîäêëþ÷àåì âíåøíèé CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="#" class="logo"><i class="fas fa-seedling"></i>Ó Êîðíÿ</a>
+      <nav>
+        <a href="#menu">Ìåíþ</a>
+        <a href="#booking">Áðîíü</a>
+        <a href="#contacts">Êîíòàêòû</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero ñ ôîíîâûì èçîáðàæåíèåì -->
+  <section class="hero">
+    <div class="container">
+      <h1>Ó Êîðíÿ</h1>
+      <p class="location"><i class="fas fa-map-pin"></i> Íèæíèé Íîâãîðîä, óë. Ïóøêèíà, ä. 5</p>
+      <p class="hero-description">
+        ×åñòíàÿ êóõíÿ, ïðèðîäíûå âêóñû, ìèíèìàëèçì â äåòàëÿõ.
+      </p>
+      <a href="#booking" class="btn">Çàáðîíèðîâàòü ñòîë</a>
+      <a href="#menu" class="btn btn-outline">Ìåíþ</a>
+    </div>
+  </section>
+
+  <!-- Ìåíþ -->
+  <section id="menu">
+    <div class="container">
+      <h2>Ìåíþ</h2>
+      <p class="subtitle">Ñåçîííûå áëþäà îò øåôà</p>
+      <div class="menu-grid" id="menuContainer">
+        <!-- Çàïîëíÿåòñÿ ÷åðåç JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Áðîíèðîâàíèå ñ ôîíîâûì èçîáðàæåíèåì -->
+  <section id="booking">
+    <div class="container">
+      <div class="booking-box">
+        <h2>Çàáðîíèðîâàòü ñòîëèê</h2>
+        <p class="subtitle">Îñòàâüòå äàííûå — ìû ïîäòâåðäèì çàïèñü</p>
+        <div class="form-row" id="bookingForm">
+          <input type="text" id="guestName" placeholder="Èìÿ" required>
+          <input type="tel" id="guestPhone" placeholder="Òåëåôîí" value="+7 910 126 99 24" required>
+          <input type="date" id="reserveDate" required>
+          <select id="reserveTime">
+            <option value="12:00">12:00</option>
+            <option value="13:00">13:00</option>
+            <option value="14:00">14:00</option>
+            <option value="18:00">18:00</option>
+            <option value="19:00" selected>19:00</option>
+            <option value="20:00">20:00</option>
+            <option value="21:00">21:00</option>
+          </select>
+          <select id="guestCount">
+            <option value="1">1 ãîñòü</option>
+            <option value="2" selected>2 ãîñòÿ</option>
+            <option value="3">3 ãîñòÿ</option>
+            <option value="4">4 ãîñòÿ</option>
+            <option value="5">5 ãîñòåé</option>
+            <option value="6">6 ãîñòåé</option>
+          </select>
+          <button type="button" id="bookTableBtn" class="booking-btn">Çàáðîíèðîâàòü</button>
+        </div>
+        <div id="bookingMessage" class="confirmation-message" style="display: none;"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Êîíòàêòû -->
+  <section id="contacts">
+    <div class="container">
+      <h2>Êîíòàêòû</h2>
+      <p class="subtitle">Ìû ðÿäîì ñ âàìè</p>
+      <div class="contacts-grid">
+        <div class="contact-card">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="contact-text">
+            <h4>Àäðåñ</h4>
+            <p>Íèæíèé Íîâãîðîä, óë. Ïóøêèíà, ä. 5</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <i class="fas fa-phone"></i>
+          <div class="contact-text">
+            <h4>Òåëåôîí</h4>
+            <p>8 910 126 99 24</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <i class="far fa-clock"></i>
+          <div class="contact-text">
+            <h4>×àñû ðàáîòû</h4>
+            <p>Åæåäíåâíî 12:00 – 23:00</p>
+          </div>
+        </div>
+      </div>
+      <div class="phone-link-wrapper">
+        <a href="tel:89101269924" class="phone-link">
+          <i class="fas fa-phone-alt"></i> Ïîçâîíèòü: 8 910 126 99 24
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Ðåñòîðàí «Ó Êîðíÿ» — Íèæíèé Íîâãîðîä</p>
+    </div>
+  </footer>
+
+  <!-- Ïîäêëþ÷àåì âíåøíèé JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

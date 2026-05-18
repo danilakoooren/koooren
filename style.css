@@ -18,7 +18,7 @@ body {
   padding: 0 28px;
 }
 
-/* ===== Минималистичный header ===== */
+/* ===== ГЊГЁГ­ГЁГ¬Г Г«ГЁГ±ГІГЁГ·Г­Г»Г© header ===== */
 header {
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(16px);
@@ -72,7 +72,7 @@ nav a:hover {
   border-bottom-color: #b0aa9a;
 }
 
-/* ===== Hero с фоновым изображением ===== */
+/* ===== Hero Г± ГґГ®Г­Г®ГўГ»Г¬ ГЁГ§Г®ГЎГ°Г Г¦ГҐГ­ГЁГҐГ¬ ===== */
 .hero {
   position: relative;
   padding: 100px 0 120px;
@@ -149,7 +149,7 @@ nav a:hover {
   text-shadow: 0 1px 10px rgba(0,0,0,0.5);
 }
 
-/* ===== Кнопки ===== */
+/* ===== ГЉГ­Г®ГЇГЄГЁ ===== */
 .btn {
   display: inline-block;
   background: #ffffff;
@@ -186,7 +186,7 @@ nav a:hover {
   border-color: #ffffff;
 }
 
-/* ===== Общие стили секций ===== */
+/* ===== ГЋГЎГ№ГЁГҐ Г±ГІГЁГ«ГЁ Г±ГҐГЄГ¶ГЁГ© ===== */
 section {
   padding: 90px 0;
 }
@@ -208,7 +208,7 @@ h2 {
   font-weight: 350;
 }
 
-/* ===== Меню ===== */
+/* ===== ГЊГҐГ­Гѕ ===== */
 #menu {
   background: #ffffff;
 }
@@ -290,7 +290,7 @@ h2 {
   background: #e8e8e8;
 }
 
-/* ===== Бронирование с фоновым изображением ===== */
+/* ===== ГЃГ°Г®Г­ГЁГ°Г®ГўГ Г­ГЁГҐ Г± ГґГ®Г­Г®ГўГ»Г¬ ГЁГ§Г®ГЎГ°Г Г¦ГҐГ­ГЁГҐГ¬ ===== */
 #booking {
   position: relative;
   padding: 100px 0 120px;
@@ -434,7 +434,7 @@ h2 {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/* ===== Контакты ===== */
+/* ===== ГЉГ®Г­ГІГ ГЄГІГ» ===== */
 #contacts {
   background: #ffffff;
   position: relative;
@@ -520,7 +520,7 @@ footer {
   margin-top: 20px;
 }
 
-/* ===== Адаптивность ===== */
+/* ===== ГЂГ¤Г ГЇГІГЁГўГ­Г®Г±ГІГј ===== */
 @media (max-width: 680px) {
   .hero {
     padding: 60px 0 80px;
